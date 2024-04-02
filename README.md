@@ -21,6 +21,10 @@ MYSQL_DATABASE=ceibal
 El dump se encuentra en la carpeta /db
 ```
 
+## Modelo
+![image](https://github.com/isaac-ramirez/ceibal-test/assets/48778675/4f94f035-c2df-4cc7-8157-74b58600bafb)
+
+
 ## Dependencias
 
 Asegúrate de instalar todas las dependencias:
