@@ -1,0 +1,7 @@
+:root {
+  --layout-page-navbar-height: 70px;
+
+  --layout-page-content-min-height: calc(
+    100dvh - var(--layout-page-navbar-height)
+  );
+}
