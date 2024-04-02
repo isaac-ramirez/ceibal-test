@@ -1,6 +1,29 @@
 ## Setup
 
-Make sure to install the dependencies:
+1. Configurar .env:
+
+```bash
+NODE_ENV=development
+
+BASE_URL=http://localhost:3000
+API_BASE_URL=http://localhost:3000
+
+# Lo importante es la configuración de MYSQL el resto se puede dejar default
+MYSQL_HOST=localhost
+MYSQL_USER=root
+MYSQL_PASSWORD=root
+MYSQL_DATABASE=ceibal
+```
+
+2. Importar base de datos:
+
+```bash
+El dump se encuentra en la carpeta /db
+```
+
+## Dependencias
+
+Asegúrate de instalar todas las dependencias:
 
 ```bash
 # npm
@@ -15,7 +38,7 @@ yarn install
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
+Para iniciar el development server en `http://localhost:3000`:
 
 ```bash
 # npm
@@ -28,9 +51,9 @@ pnpm dev
 yarn dev
 ```
 
-## Production
+## Producción
 
-Build the application for production:
+Para buildear la aplicación para production:
 
 ```bash
 # npm
@@ -43,7 +66,7 @@ pnpm build
 yarn build
 ```
 
-Locally preview production build:
+Para ver una preview local del build de producción:
 
 ```bash
 # npm
@@ -58,7 +81,7 @@ yarn preview
 
 ## ESLint
 
-Run ESLint in all the files:
+Para correr ESLint en todos los archivos:
 
 ```bash
 # npm
@@ -71,7 +94,7 @@ pnpm lint
 yarn lint
 ```
 
-Fix potential ESLint errors:
+Para fixear potenciales errores de ESLint:
 
 ```bash
 # npm

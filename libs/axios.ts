@@ -8,7 +8,7 @@ const baseConfig = {
 const axiosInstance = () => {
   if (!baseConfig.baseURL) {
     const config = useRuntimeConfig()
-    baseConfig.baseURL = config.public.API_BASE_URL as string
+    baseConfig.baseURL = config.public.API_BASE_URL
   }
   return axios.create(baseConfig)
 }
