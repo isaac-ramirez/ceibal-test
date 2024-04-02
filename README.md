@@ -1,5 +1,7 @@
 ## Setup
 
+Paso a paso: https://www.youtube.com/watch?v=bIoui408yNI&ab_channel=IsaacRamirez
+
 1. Configurar .env:
 
 ```bash
